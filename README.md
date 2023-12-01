@@ -7,5 +7,7 @@ Generate PULL_REQUEST_TEMPLATE.md and ISSUE_TEMPLATE.md files customized to your
 ### You feel ready to get started
 
 > You are standing in an open field west of a white house.
+>
+> [中/英双语版](https://zhoulion.github.io/open-source-templates)
 > 
 > [You click this link and begin your adventure](https://www.talater.com/open-source-templates/) ![](http://i.imgur.com/YSWj6a6.gif)
