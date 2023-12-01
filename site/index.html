@@ -15,204 +15,323 @@
     <link rel="stylesheet" href="style/main.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-24775009-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-    <!-- End Google Analytics -->
   </head>
   <body>
+    <div style="position: sticky; top: 0;">
+      <select id="langSelector">
+        <option value="en">English</option>
+        <option value="zh-CN">中文</option>
+      </select>
+    </div>
     <a href="#/page/1" class="cover-link">
       <div class="cover">
         <img src="img/cyoa.png" alt="Choose Your Own Adventure" class="cyoa">
-        <h1>Open Source Templates</h1>
-        <h2>The Curious Case of the Issue and Pull Request Template</h2>
+        <h1 data-lang="en">Open Source Templates</h1>
+        <h2 data-lang="en">The Curious Case of the Issue and Pull Request Template</h2>
+
+        <h1 data-lang="zh-CN">开源模版</h1>
+        <h2 data-lang="zh-CN">问题和拉取请求模板的奇案怪宗</h2>
+
         <div class="author">by Tal Ater</div>
         <img src="img/cover.jpg" alt="The Curious Case of the Issue and Pull Request Template" class="cover-image">
       </div>
     </a>
 
     <div class="page" id="page-1">
-      <h1>Chapter 1</h1>
-      <h2>The Overflowing Mailboxes</h2>
+      <h1 data-lang="en">Chapter 1</h1>
+      <h2 data-lang="en">The Overflowing Mailboxes</h2>
+
+      <h1 data-lang="zh-CN">章节 1</h1>
+      <h2 data-lang="zh-CN">满溢的邮箱</h2>
       <img src="img/alice25a.gif">
-      <p>You are standing in an open field west of a white house. The house is a carefully constructed masterpiece, with solid foundations and a beautiful facade matched by an elegant interior.</p>
-      <p>Around the back of the house you see a long line of people, all of them holding little white envelopes. They seem very eager to help with the house.</p>
-      <p>There are two mailboxes here.</p>
-      <p>The first mailbox is simply labeled <em>issues</em> ("as if I don't have enough of my own to deal with", you think to yourself).</p>
-      <p>The second is mysteriously labeled - <em>Pull Requests</em>.</p>
-      <p>Both are overflowing.</p>
+      <p data-lang="en">You are standing in an open field west of a white house. The house is a carefully constructed masterpiece, with solid foundations and a beautiful facade matched by an elegant interior.</p>
+      <p data-lang="en">Around the back of the house you see a long line of people, all of them holding little white envelopes. They seem very eager to help with the house.</p>
+      <p data-lang="en">There are two mailboxes here.</p>
+      <p data-lang="en">The first mailbox is simply labeled <em>issues</em> ("as if I don't have enough of my own to deal with", you think to yourself).</p>
+      <p data-lang="en">The second is mysteriously labeled - <em>Pull Requests</em>.</p>
+      <p data-lang="en">Both are overflowing.</p>
+
+      <p data-lang="zh-CN">你正站在白宫西侧的一处空地。这所房子是精心构造的杰作，具有坚实的地基，并且配有优雅的室内装饰。</p>
+      <p data-lang="zh-CN">在房子的后面，你会看到一大溜的人，全都拿着小白色信封。他们似乎非常渴望为房子提供帮助。</p>
+      <p data-lang="zh-CN">这里有两个邮箱。</p>
+      <p data-lang="zh-CN">第一个邮箱仅标记为 - <em> 问题 </em>（“貌似我心有余力不足了”，你心想）。</p>
+      <p data-lang="zh-CN">第二个被神秘地标记为 -  <em>拉取请求</em>。</p>
+      <p data-lang="zh-CN">两个都快溢出了。</p>
       <ul>
-        <li>To open the <em>issues</em> box, <a href="#/page/37/type/issues">turn to page 37</a>.</li>
-        <li>To open the <em>pull requests</em> box, <a href="#/page/75/type/pull-requests">turn to page 75</a>.</li>
-        <li>Realizing that your boss may be looking over your shoulder, you quickly hit the <a href="#" id="boss-key">BOSS key</a>.</li>
+        <li data-lang="en">To open the <em>issues</em> box, <a href="#/page/37/type/issues">turn to page 37</a>.</li>
+        <li data-lang="en">To open the <em>pull requests</em> box, <a href="#/page/75/type/pull-requests">turn to page 75</a>.</li>
+        <li data-lang="en">Realizing that your boss may be looking over your shoulder, you quickly hit the <a href="#" id="boss-key">BOSS key</a>.</li>
+
+        <li data-lang="zh-CN">打开<em> 问题 </em> 信箱，<a href="#/page/37/type/issues">转到第37页</a>。<li>
+        <li data-lang="zh-CN">打开<em> 拉取请求 </em> 信箱，<a href="#/page/75/type/pull-requests">转到页面75 </a>。</li>
+        <li data-lang="zh-CN">意识到你的老板可能正在看着你的肩膀，你迅速击中<a href="#" id="boss-key"> BOSS 键 </a>。</li>
       </ul>
     </div>
 
     <div class="page" id="page-37">
       <div class="page-number">Page 37</div>
-      <h2>A Bottomless Pit</h2>
+      <h2 data-lang="en">A Bottomless Pit</h2>
+      
+      <h2 data-lang="zh-CN">无尽深渊</h2>
       <img src="img/451px-Maelstrom-Clarke.jpg">
-      <p>You take a deep breath and open the box labeled <em>issues</em>.</p>
-      <p>The size of the box's interior surprises you. As you look into it, you are suddenly gripped by a feeling that the box has no bottom.</p>
-      <p>As you stare down into the seemingly bottomless pit of the box, you begin to feel a chill running down your spine. It is as if… as if the endless box of issues is staring right back into your soul.</p>
-      <p>It feels… judgy.</p>
+      <p data-lang="en">You take a deep breath and open the box labeled <em>issues</em>.</p>
+      <p data-lang="en">The size of the box's interior surprises you. As you look into it, you are suddenly gripped by a feeling that the box has no bottom.</p>
+      <p data-lang="en">As you stare down into the seemingly bottomless pit of the box, you begin to feel a chill running down your spine. It is as if… as if the endless box of issues is staring right back into your soul.</p>
+      <p data-lang="en">It feels… judgy.</p>
+
+      <p data-lang="zh-CN">深吸了一口气，你打开了标有 <em>问题</em> 的信箱。</p>
+      <p data-lang="zh-CN">信箱内部的大小使你感到惊讶。当你查看它时，你突然被信箱没有底部的感觉所抓住.</p>
+      <p data-lang="zh-CN">当你凝视着看似无底的箱子时，你开始感到脊背发凉。好像……好像无尽的问题盒正在凝视着你的灵魂.</p>
+      <p data-lang="zh-CN">It feels… judgy.</p>
       <ul>
-        <li>Rolling up your sleeves, you decide to take charge of the <em>issues</em> box and <a href="#/page/38">turn to page 38</a>.</li>
-        <li>Fear overtakes you. You close the box with a high pitched yelp and <a href="#/page/1">turn back to page 1</a>.</li>
+        <li data-lang="en">Rolling up your sleeves, you decide to take charge of the <em>issues</em> box and <a href="#/page/38">turn to page 38</a>.</li>
+        <li data-lang="en">Fear overtakes you. You close the box with a high pitched yelp and <a href="#/page/1">turn back to page 1</a>.</li>
+
+        <li data-lang="zh-CN">撸起袖子加油干，你决定接管<em> 问题 </em> 信箱，<a href="#/page/38">转到第38页</a>。</li>
+        <li data-lang="zh-CN">恐惧战胜了你。你可以用高高的Yelp和<a href="#/page/1">合上信箱，转到第1页</a>。</li>
       </ul>
     </div>
 
     <div class="page" id="page-38">
       <div class="page-number">Page 38</div>
-      <h2>Angels and Demons</h2>
+      <h2 data-lang="en">Angels and Demons</h2>
+
+      <h2 data-lang="zh-CN">天使与魔鬼</h2>
       <img src="img/angelsversusdemons.jpg">
-      <p>As you reach down into the box, you begin to realize there is a strange order to the madness. You start to notice a pattern in the issues.</p>
-      <p>Some take the form of <em>bug reports</em>, grey festering blobs of infinite malevolence.</p>
-      <p>Others manifest themselves as great ethereal balls of living energy in the form of ideas. Whispering half truths of promised <em>features, improvements, and changes</em>.</p>
-      <p>You furrow your brow as you consider whether you should concentrate on one type of issue, or both.</p>
+      <p data-lang="en">As you reach down into the box, you begin to realize there is a strange order to the madness. You start to notice a pattern in the issues.</p>
+      <p data-lang="en">Some take the form of <em>bug reports</em>, grey festering blobs of infinite malevolence.</p>
+      <p data-lang="en">Others manifest themselves as great ethereal balls of living energy in the form of ideas. Whispering half truths of promised <em>features, improvements, and changes</em>.</p>
+      <p data-lang="en">You furrow your brow as you consider whether you should concentrate on one type of issue, or both.</p>
+
+      <p data-lang="zh-CN">当你把手伸进信箱，你开始意识到混沌一片。你开始注意到问题中的模式。</p>
+      <p data-lang="zh-CN">有些以<em>错误报告</em>的形式，灰色的溃烂的斑点，无限的恶意。</p>
+      <p data-lang="zh-CN">其他人则以思想的形式表现为巨大的空灵能量球。煞有其事的默念着那些许诺过的<em> <em>特征，改进和变更</em>。</p>
+      <p data-lang="zh-CN">你考虑是否应该专注于一种类型的问题，还是两者兼而有之。</p>。</p>
       <ul>
-        <li>You decide to focus on <a href="#/page/39/description/bug">bug reports</a>.</li>
-        <li>You decide to prioritize <a href="#/page/39/description/feature">new features, improvements, and changes</a>.</li>
-        <li>You decide to accept both <a href="#/page/39/description/bug-or-feature">bug reports as well as proposals for new features, improvements, and changes</a>.</li>
+        <li data-lang="zh-CN">你决定聚焦于 <a href="#/page/39/description/bug">错误报告</a>.</li>
+        <li data-lang="zh-CN">你决定优先考虑 <a href="#/page/39/description/feature">新特性、改进和变更</a>。</li>
+        <li data-lang="zh-CN">你决定两者兼而有之 <a href="#/page/39/description/bug-or-feature">错误报告还有新特性、改进和变更的提议</a>。</li>
       </ul>
     </div>
 
     <div class="page" id="page-39">
       <div class="page-number">Page 39</div>
-      <h2>Two Sides to Every Schwartz</h2>
+      <h2 data-lang="en">Two Sides to Every Schwartz</h2>
+
+      <h2 data-lang="en">Two Sides to Every 施瓦兹</h2>
       <img src="img/2book18.jpg">
-      <p>As you pull your head out of the <em>issues</em> mailbox, you are startled by a voice coming from behind you.</p>
-      <p>"So… what are you?"</p>
-      <p>They are standing under a tree, each with an arm round the other’s neck, and you know which is which in a moment, because one of them has <em>`front’</em> embroidered on his collar, and the other <em>`back’</em>.</p>
-      <p>"I'm sure I'm very sorry, but whatever do you mean?"</p>
-      <p>"There are two sides to every Schwartz," says the first. "Front end…"</p>
-      <p>"…and back end," adds his brother.</p>
+      <p data-lang="en">As you pull your head out of the <em>issues</em> mailbox, you are startled by a voice coming from behind you.</p>
+      <p data-lang="en">"So… what are you?"</p>
+      <p data-lang="en">They are standing under a tree, each with an arm round the other’s neck, and you know which is which in a moment, because one of them has <em>`front’</em> embroidered on his collar, and the other <em>`back’</em>.</p>
+      <p data-lang="en">"I'm sure I'm very sorry, but whatever do you mean?"</p>
+      <p data-lang="en">"There are two sides to every Schwartz," says the first. "Front end…"</p>
+      <p data-lang="en">"…and back end," adds his brother.</p>
+
+      <p data-lang="zh-CN">当你将头从<em>问题</em>的邮箱中探出来，你被你背后传来的声音镇住了。</p>
+      <p data-lang="zh-CN">“所以……你是谁？” </p>
+      <p data-lang="zh-CN">他们伫立在一棵树下，每个人都耷拉对方的脖子上，而你知道哪个是什么，因为其中一个他的衣领上绣着<em>前端</em>，另一个是<em>后端</em>。</p>
+      <p data-lang="zh-CN">“实在是抱歉，但是你们是什么意思？” </p>
+      <p data-lang="zh-CN">“每个施瓦兹都有两个端，” 第一个说道。“前端……” </p>
+      <p data-lang="zh-CN">“…和后端，”他的兄弟又说道。</p>
       <ul>
-        <li>"<a href="#/page/42/environment/browser">My project runs in the browser</a>" you say, giving <em>back</em> a mistrusting look.</li>
-        <li>"<a href="#/page/42/environment/server">I am all about the server</a>" you say with some pride.</li>
-        <li>You roll your eyes at the twins and say "<a href="#/page/42/environment/browser-and-server">How quaint. Actually my code runs equally well on the server, as well as the browser</a>".</li>
+        <li data-lang="en">"<a href="#/page/42/environment/browser">My project runs in the browser</a>" you say, giving <em>back</em> a mistrusting look.</li>
+        <li data-lang="en">"<a href="#/page/42/environment/server">I am all about the server</a>" you say with some pride.</li>
+        <li data-lang="en">You roll your eyes at the twins and say "<a href="#/page/42/environment/browser-and-server">How quaint. Actually my code runs equally well on the server, as well as the browser</a>".</li>
+
+        <li data-lang="zh-CN">“ <a href="#/page/42/environment/browser">我的项目在浏览器中运行</a>” ，你说着，投予<em> 后端 </em>不信任的一瞥。</li>
+        <li data-lang="zh-CN">“ <a href="#/page/42/environment/server">我只关乎服务器</a> ”，你自豪地说。</li>
+        <li data-lang="zh-CN">你对双胞胎睁大了眼睛，接着说：“ <a href="#/page/42/environment/browser-browser-and-server">好巧不巧。实际上我的代码同样运行在服务器以及浏览器上</a>”。</li>
       </ul>
     </div>
 
     <div class="page" id="page-42">
       <div class="page-number">Page 42</div>
-      <h2>An Unexpected Guest</h2>
+      <h2 data-lang="en">An Unexpected Guest</h2>
+
+      <h2 data-lang="en">不速之客</h2>
       <img src="img/cheshire_cat.jpg">
-      <p>The brothers nod with understanding, give each other a knowing look and disappear into thin air.</p>
-      <p>"And that's that," says a voice from the tree above, startling you.</p>
-      <p>You look up and see a Cat grinning from ear to ear. Sensing your alarm, the Cat's grin somehow widens even more. You notice that it has very long claws and a great many teeth.</p>
-      <p>"Would you tell me, please, which way I ought to go from here?" you ask.</p>
-      <p>"That depends a good deal on where you want to get to," says the Cat. "You are either at the end of your road, or its beginning."</p>
+      <p data-lang="en">The brothers nod with understanding, give each other a knowing look and disappear into thin air.</p>
+      <p data-lang="en">"And that's that," says a voice from the tree above, startling you.</p>
+      <p data-lang="en">You look up and see a Cat grinning from ear to ear. Sensing your alarm, the Cat's grin somehow widens even more. You notice that it has very long claws and a great many teeth.</p>
+      <p data-lang="en">"Would you tell me, please, which way I ought to go from here?" you ask.</p>
+      <p data-lang="en">"That depends a good deal on where you want to get to," says the Cat. "You are either at the end of your road, or its beginning."</p>
+
+      <p data-lang="zh-CN">兄弟们点头示意，彼此对视一眼，便消失在空气中。</p>
+      <p data-lang="zh-CN">“就是这样，”从树上的声音让你感到震惊。</p>
+      <p data-lang="zh-CN">你抬起头，看到一只猫从耳朵到耳朵都咧着嘴笑。感知到你的警觉，这只猫不知怎的笑的更大了。你会注意到它很长的爪子，非常多的牙齿。</p>
+      <p data-lang="zh-CN">“你能告诉我，我应该从这里走哪条路吗？”你问。</p>
+      <p data-lang="zh-CN">“那要看你想要什么地方，”猫说。“你要么在路的尽头，要么是它的开始。” </p>
       <ul>
-        <li>Your journey feels complete, you feel ready to download your <a href="#/page/98">ISSUE_TEMPLATE.md</a></li>
-        <li>Something feels wrong, you <a href="#/page/1">turn around</a> and face the mailboxes again.</li>
+        <li data-lang="en">Your journey feels complete, you feel ready to download your <a href="#/page/98">ISSUE_TEMPLATE.md</a></li>
+        <li data-lang="en">Something feels wrong, you <a href="#/page/1">turn around</a> and face the mailboxes again.</li>
+        
+        <li data-lang="zh-CN">你的旅程圆满，你可以准备下载<a href="#/page/98"> ISSUE_TEMPLATE.md </a> </li>
+        <li data-lang="zh-CN">感觉很不对劲，你<a href="#/page/1">转身</a>再次面对邮箱。</li>
       </ul>
     </div>
 
     <div class="page" id="page-98">
       <div class="page-number">Page 98</div>
-      <h1>Epilogue</h1>
-      <p>Your journey is complete. Your prize awaits. You are ready to return to The Hub.</p>
+      <h1 data-lang="en">weishe</h1>
+      <p data-lang="en">Your journey is complete. Your prize awaits. You are ready to return to The Hub.</p>
+
+      <h1 data-lang="zh-CN">尾声</h1>
+      <p data-lang="zh-CN">您的旅程已经完成。您的奖品在等待。您准备返回 Hub。</p>
       <div class="file-box">
         <a href="#" class="file-name">ISSUE_TEMPLATE.md</a>
         <span class="file-description">Place this file in your repository's root directory or a .github directory</span>
       </div>
       <div class="textarea"><textarea></textarea></div>
-      <p>You copy the contents of the <em>ISSUE_TEMPLATE.md</em> file, and place it in your repository.</p>
+      <p data-lang="en">You copy the contents of the <em>ISSUE_TEMPLATE.md</em> file, and place it in your repository.</p>
+
+      <p data-lang="zh-CN">您复制了<em> ISSUE_TEMPLATE.md </em>文件的内容，然后将其放在存储库中。</p>
+
       <ul>
-        <li>You decide to <a class="github-button" href="https://github.com/TalAter/open-source-templates" data-count-href="/TalAter/open-source-templates/stargazers" data-count-api="/repos/TalAter/open-source-templates#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star TalAter/open-source-templates on GitHub">Star</a> this on GitHub.</li>
-        <li>"Maybe I should <a href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter" class="twitter-share-button" data-url="https://www.talater.com/open-source-templates/" data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll" data-via="TalAter"><img src="img/tweet.png" class="tweet" /></a> this," you say to no one in particular.</li>
-        <li>You do not feel ready, you <a href="#/page/1">turn around</a> and start again.</li>
+        <li data-lang="en">You decide to <a class="github-button" href="https://github.com/zhouLion/open-source-templates" data-count-href="/zhouLion/open-source-templates/stargazers" data-count-api="/repos/zhouLion/open-source-templates#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star zhouLion/open-source-templates on GitHub">Star</a> this on GitHub.</li>
+        <li data-lang="en">"Maybe I should <a href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter" class="twitter-share-button" data-url="https://www.talater.com/open-source-templates/" data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll" data-via="TalAter"><img src="img/tweet.png" class="tweet" /></a> this," you say to no one in particular.</li>
+        <li data-lang="en">You do not feel ready, you <a href="#/page/1">turn around</a> and start again.</li>
+
+        <li data-lang="zh-CN">您决定在 GitHub 上<a class="github-button" href="https://github.com/zhouLion/open-source-templates" data-count-href="/zhouLion/open-source-templates/stargazers" data-count-api="/repos/zhouLion/open-source-templates#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star zhouLion/open-source-templates on GitHub">标星</a>这个仓库。</li>
+        <!-- <li data-lang="zh-CN">"Maybe I should <a href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter" class="twitter-share-button" data-url="https://www.talater.com/open-source-templates/" data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll" data-via="TalAter"><img src="img/tweet.png" class="tweet" /></a> this," you say to no one in particular.</li> -->
+        <li data-lang="zh-CN">您没有准备好，您<a href="#/page/1">转身</a>然后重新开始。</li>
       </ul>
     </div>
 
     <div class="page" id="page-75">
       <div class="page-number">Page 75</div>
-      <h2>Looking-glass House</h2>
+      <h2 data-lang="en">Looking-glass House</h2>
+
+      <h2 data-lang="en">Looking-glass House</h2>
       <img src="img/2book3.jpg">
-      <p>You peer into the mailbox. Through it you see a confused looking person standing in an open field east of a white house.</p>
-      <p>Startled, you raise your right hand to your mouth, stifling a scream. You stumble back just in time to see the person through the mailbox stumble back and raise their left hand.</p>
-      <p>You regain your composure (feeling a bit silly, having just been startled by a looking glass), and approach the mailbox again.</p>
-      <p>"Now, if you'll only attend," says the person visible through the mailbox, "I'll tell you all about Looking-glass House. First, there's the house you can see through the glass—that's just the same as your house, only the things go the other way."</p>
+      <p data-lang="en">You peer into the mailbox. Through it you see a confused looking person standing in an open field east of a white house.</p>
+      <p data-lang="en">Startled, you raise your right hand to your mouth, stifling a scream. You stumble back just in time to see the person through the mailbox stumble back and raise their left hand.</p>
+      <p data-lang="en">You regain your composure (feeling a bit silly, having just been startled by a looking glass), and approach the mailbox again.</p>
+      <p data-lang="en">"Now, if you'll only attend," says the person visible through the mailbox, "I'll tell you all about Looking-glass House. First, there's the house you can see through the glass—that's just the same as your house, only the things go the other way."</p>
+      
+      <p data-lang="zh-CN">您凝视到邮箱中。通过它，您会看到一个困惑的人站在白宫以东的一个开阔的田野里。</p>
+      <p data-lang="zh-CN">吓了一跳，你将右手抬到嘴上，扼杀尖叫声。您及时偶然发现了通过邮箱偶然发现的人并举起左手。</p>
+      <p data-lang="zh-CN">您恢复了镇静（感觉有些愚蠢，刚刚被看似玻璃吓了一跳），然后再次接近邮箱。</p>
+      <p data-lang="zh-CN">现在，如果你只参加，”通过邮箱可见的人说：“我会告诉大家有关镜头房屋的信息。首先，您可以看到房子通过玻璃与您的房子相同，只有事物是相反的。” </p>
       <ul>
-        <li>The bizarre person in the looking glass intrigues you, and you decide to continue the conversation. You <a href="#/page/77">turn to page 77</a>.</li>
-        <li>The world spins around you, this is too much for you to deal with. You shut the mailbox and <a href="#/page/1">turn back to page 1</a>.</li>
+        <li data-lang="en">The bizarre person in the looking glass intrigues you, and you decide to continue the conversation. You <a href="#/page/77">turn to page 77</a>.</li>
+        <li data-lang="en">The world spins around you, this is too much for you to deal with. You shut the mailbox and <a href="#/page/1">turn back to page 1</a>.</li>
+
+        <li data-lang="zh-CN">看上去的玻璃中的奇异人物很有趣，您决定继续对话。您<a href="#/page/77">转到第77页。</a>。</li>
+        <li data-lang="zh-CN">世界周围旋转，这太多了。您关闭了邮箱，<a href="#/page/1">转到第1页</a>。</li>
       </ul>
     </div>
 
     <div class="page" id="page-77">
       <div class="page-number">Page 77</div>
-      <h2>People With Issues</h2>
+      <h2 data-lang="en">People With Issues</h2>
+
+      <h2 data-lang="zh-CN">带着问题的人们</h2>
       <img src="img/2book33.jpg">
-      <p>Looking through the mailbox, you notice that the line of people coming around the house are all carrying two envelopes. You watch as they pass by the <em>issues</em> mailbox, place one envelope there and proceed to the <em>pull requests</em> mailbox with the second.</p>
-      <p>"We only accept <em>pull requests</em> after the matter has been discussed thoroughly in an <em>issue</em>" explains the person through the mailbox.</p>
+      <p data-lang="en">Looking through the mailbox, you notice that the line of people coming around the house are all carrying two envelopes. You watch as they pass by the <em>issues</em> mailbox, place one envelope there and proceed to the <em>pull requests</em> mailbox with the second.</p>
+      <p data-lang="en">"We only accept <em>pull requests</em> after the matter has been discussed thoroughly in an <em>issue</em>" explains the person through the mailbox.</p>
+      
+      <p data-lang="zh-CN">正翻看着邮箱，你注意到屋子里排的人们都拿着两个信封。你看着他们经过<em>问题</em>邮箱，把一封信投进那里，然后带着第二个信封并投入了<em>拉取请求</em>邮箱。</p>
+      <p data-lang="zh-CN">“我们只在<em>问题</em>中彻底讨论此事后才接受<em>拉取请求</em>，”该人士通过邮箱解释道。</P>
       <ul>
-        <li>"<a href="#/page/26/description/generic">We accept pull requests even without issues</a>", you say.</li>
-        <li>You nod in agreement and say "<a href="#/page/26/description/issue-required">we also only accept pull requests after the matter has been discussed in an issue</a>".</li>
+        <li data-lang="en">"<a href="#/page/26/description/generic">We accept pull requests even without issues</a>", you say.</li>
+        <li data-lang="en">You nod in agreement and say "<a href="#/page/26/description/issue-required">we also only accept pull requests after the matter has been discussed in an issue</a>".</li>
+
+        <li data-lang="zh-CN">“ <a href="#/page/26/description/generic">即使没有问题，我们也接受拉取请求</a>”，您说。</li>
+        <li data-lang="zh-CN">您点头同意，并说“ <a href="#/page/26/description/issue-required">我们也只接受在问题中讨论此事后的再拉取请求</a>”。</li>
       </ul>
     </div>
 
     <div class="page" id="page-26">
       <div class="page-number">Page 26</div>
-      <h2>Driven to Perfection</h2>
+
+      <h2 data-lang="en">Driven to Perfection</h2>
+      <h2 data-lang="zh-CN">尽善尽美</h2>
       <img src="img/2book36.jpg">
-      <p>The two of you stare at each other through the looking glass. Looking closer at your mirrored companion, you begin to notice the exhaustion on their face. It is the face of a person testing every single pull request manually.</p>
-      <p>"Are you OK?" you ask.</p>
-      <p>Your looking glass friend sighs and lowers their gaze.</p>
-      <p>"How do you test changes to your code?" they ask.</p>
+      <p data-lang="en">The two of you stare at each other through the looking glass. Looking closer at your mirrored companion, you begin to notice the exhaustion on their face. It is the face of a person testing every single pull request manually.</p>
+      <p data-lang="en">"Are you OK?" you ask.</p>
+      <p data-lang="en">Your looking glass friend sighs and lowers their gaze.</p>
+      <p data-lang="en">"How do you test changes to your code?" they ask.</p>
+
+      <p data-lang="zh-CN">你们两个互相凝视着玻璃。仔细观察您的镜子同伴，您开始注意到他们脸上的疲惫。这是一个人手动测试每个拉的请求的人的面孔。</p>
+      <p data-lang="zh-CN">“你还好吗？”你问。</p>
+      <p data-lang="zh-CN">您的玻璃朋友叹了口气并降低了他们的目光。</p>
+      <p data-lang="zh-CN">“如何测试代码更改？”他们问。</p>
       <ul>
-        <li>"Easy, <a href="#/page/29/checklist/tests">my project has automated tests set up</a>," you say, beaming with pride (though the code coverage could be improved, you admit to yourself).</li>
-        <li>"The hard way," you say, as you look at the worn F5 key. You <a href="#/page/29">turn to page 29</a> in shame.</li>
+        <li data-lang="en">"Easy, <a href="#/page/29/checklist/tests">my project has automated tests set up</a>," you say, beaming with pride (though the code coverage could be improved, you admit to yourself).</li>
+        <li data-lang="en">"The hard way," you say, as you look at the worn F5 key. You <a href="#/page/29">turn to page 29</a> in shame.</li>
+
+        <li data-lang="zh-CN">“简单，<a href="#/page/29/checklist/tests">我的项目设置了自动测试</a>，”您说，以自豪感（尽管您承认自己可以改善代码覆盖范围）。</li>
+        <li data-lang="zh-CN">“困难的方式”，当您查看磨损的F5键时。您<a href="#/page/29">转向第29页</a>羞耻。</li>
       </ul>
     </div>
 
     <div class="page" id="page-29">
       <div class="page-number">Page 29</div>
-      <h2>CONTRIBUTING file</h2>
+      <h2 data-lang="en">CONTRIBUTING file</h2>
+      
+      <h2 data-lang="zh-CN">贡献文件</h2>
       <img src="img/2book32.jpg">
-      <p>As you look more closely at the looking glass house, you begin to wonder 'how do they keep this house so tidy?'</p>
-      <p>On the tree next to the looking glass house you see a notice posted. It is hard to make out the words from this distance, but you manage to make out the big red headline saying GИITUBIЯTИOƆ.</p>
+      <p data-lang="en">As you look more closely at the looking glass house, you begin to wonder 'how do they keep this house so tidy?'</p>
+      <p data-lang="en">On the tree next to the looking glass house you see a notice posted. It is hard to make out the words from this distance, but you manage to make out the big red headline saying GИITUBIЯTИOƆ.</p>
+
+      <p data-lang="zh-CN">当您更仔细地看着玻璃房子时，您开始怀疑'他们如何保持这所房子如此整洁？'</p>
+      <p data-lang="zh-CN">在树上旁边的玻璃房屋旁边您看到的通知。很难从这个距离中弄清楚这些话，但是您设法说明了大红色标题，说g极。</p> </p>
       <ul>
-        <li>"<a href="#/page/56/checklist/contributing">My project has a CONTRIBUTING file</a> just like that," you say.</li>
-        <li>How curious, you think to yourself and <a href="#/page/56">turn to page 56</a>.</li>
+        <li data-lang="en">"<a href="#/page/56/checklist/contributing">My project has a CONTRIBUTING file</a> just like that," you say.</li>
+        <li data-lang="en">How curious, you think to yourself and <a href="#/page/56">turn to page 56</a>.</li>
+        <li data-lang="zh-CN">“ <a href="#/page/56/checklist/contributing">我的项目有一个贡献的文件</a>那样，”你说。</li>
+        <li data-lang="zh-CN">多么好奇，您对自己和<a href="#/page/56">转到第56页</a>。</li>
       </ul>
     </div>
 
     <div class="page" id="page-56">
       <div class="page-number">Page 56</div>
-      <h2>An Old Friend</h2>
+
+      <h2 data-lang="en">An Old Friend</h2>
+
+      <h2 data-lang="zh-CN">老朋友</h2>
       <img src="img/cheshire_cat.jpg">
-      <p>As you gaze at the notice on the tree, you suddenly notice a huge grin hovering among the branches of the tree.</p>
-      <p>You watch as the grin widens, exposing a mouthful of sharp teeth, startling you beyond words. You squeal in terror, and slam the mailbox shut.</p>
-      <p>Feeling cold sweat running down your neck, you slowly turn around. You look up to lowest branches of the tree on your side of the looking glass where a Cat slowly fades into view, beginning with the grin, and ending with the tail.</p>
-      <p>"How are you getting on?" says the Cat, as soon as there is mouth enough for it to speak with.</p>
+      <p data-lang="en">As you gaze at the notice on the tree, you suddenly notice a huge grin hovering among the branches of the tree.</p>
+      <p data-lang="en">You watch as the grin widens, exposing a mouthful of sharp teeth, startling you beyond words. You squeal in terror, and slam the mailbox shut.</p>
+      <p data-lang="en">Feeling cold sweat running down your neck, you slowly turn around. You look up to lowest branches of the tree on your side of the looking glass where a Cat slowly fades into view, beginning with the grin, and ending with the tail.</p>
+      <p data-lang="en">"How are you getting on?" says the Cat, as soon as there is mouth enough for it to speak with.</p>
+      
+      <p data-lang="zh-CN">当您凝视着树上的通知时，您突然发现树的分支之间徘徊了巨大的笑容。</p>
+      <p data-lang="zh-CN">您注视着笑容扩大，暴露了一口尖锐的牙齿，使您超越了言语。您在恐怖中尖叫，然后猛击关闭邮箱。</p>
+      <p data-lang="zh-CN">感到冷汗从脖子上流下，你慢慢地转身。您抬头看着看上去的玻璃侧面的树的最低树枝，猫慢慢地从笑容开始，然后以尾巴结尾。</p>
+      <p data-lang="zh-CN">“您如何进行？”猫说，一旦有足够的嘴来与它说话。</p>
       <ul>
-        <li>"I feel ready to download the <a href="#/page/99">PULL_REQUEST_TEMPLATE.md</a> file", you say. You expect the cat to be confused by your words, but his grin somehow widens even more.</li>
-        <li>The cat couldn't have just talked, could it? You feel faint. Your eyes close and you find yourself slipping away. You wake up hours later, <a href="#/page/1">back where you started</a>.</li>
+        <li data-lang="en">"I feel ready to download the <a href="#/page/99">PULL_REQUEST_TEMPLATE.md</a> file", you say. You expect the cat to be confused by your words, but his grin somehow widens even more.</li>
+        <li data-lang="en">The cat couldn't have just talked, could it? You feel faint. Your eyes close and you find yourself slipping away. You wake up hours later, <a href="#/page/1">back where you started</a>.</li>
+        
+        <li data-lang="zh-CN">“我准备下载<a href="#/page/99"> pull_request_template.md </a>文件”，您说。您期望猫被您的话混淆，但他的笑容以某种方式扩大了。</li>
+        <li data-lang="zh-CN">猫无法说话，可以吗？你感到微弱。你的眼睛闭上了，你发现自己滑了。您几个小时后醒来，<a href="#/page/1">回到您开始的地方</a>。</li>
       </ul>
     </div>
 
     <div class="page" id="page-99">
       <div class="page-number">Page 99</div>
-      <h1>Epilogue</h1>
-      <p>Your journey is complete. Your prize awaits. You are ready to return to The Hub.</p>
+      <h1 data-lang="en">Epilogue</h1>
+      <p data-lang="en">Your journey is complete. Your prize awaits. You are ready to return to The Hub.</p>
+
+      <h1 data-lang="en">尾声</h1>
+      <p data-lang="zh-CN">您的旅程已经完成。您的奖品在等待。您准备返回 Hub。</p>
       <div class="file-box">
         <a href="#" class="file-name">PULL_REQUEST_TEMPLATE.md</a>
         <span class="file-description">Place this file in your repository's root directory or a .github directory</span>
       </div>
       <div class="textarea"><textarea></textarea></div>
-      <p>You copy the contents of the <em>PULL_REQUEST_TEMPLATE.md</em> file, placing it in your repository.</p>
+      <p data-lang="en">You copy the contents of the <em>PULL_REQUEST_TEMPLATE.md</em> file, placing it in your repository.</p>
+
+      <p data-lang="zh-CN">您复制<em> pull_request_template.md </em>文件的内容，将其放在存储库中。</p>
       <ul>
-        <li>You decide to <a class="github-button" href="https://github.com/TalAter/open-source-templates" data-count-href="/TalAter/open-source-templates/stargazers" data-count-api="/repos/TalAter/open-source-templates#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star TalAter/open-source-templates on GitHub">Star</a> this on GitHub.</li>
-        <li>"Maybe I should <a href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter" class="twitter-share-button" data-url="https://www.talater.com/open-source-templates/" data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll" data-via="TalAter"><img src="img/tweet.png" class="tweet" /></a> this," you say to no one in particular.</li>
-        <li>You decide to start over and <a href="#/page/1">turn back to page 1</a>.</li>
+        <li data-lang="en">You decide to <a class="github-button" href="https://github.com/zhouLion/open-source-templates" data-count-href="/zhouLion/open-source-templates/stargazers" data-count-api="/repos/zhouLion/open-source-templates#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star zhouLion/open-source-templates on GitHub">Star</a> this on GitHub.</li>
+        <li data-lang="en">"Maybe I should <a href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter" class="twitter-share-button" data-url="https://www.talater.com/open-source-templates/" data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll" data-via="TalAter"><img src="img/tweet.png" class="tweet" /></a> this," you say to no one in particular.</li>
+        <li data-lang="en">You decide to start over and <a href="#/page/1">turn back to page 1</a>.</li>
+
+        <li data-lang="zh-CN">您决定在 GitHub 上<a class="github-button" href="https://github.com/zhouLion/open-source-templates" data-count-href="/zhouLion/open-source-templates/stargazers" data-count-api="/repos/zhouLion/open-source-templates#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star zhouLion/open-source-templates on GitHub">标星</a>这个仓库。</li>
+        <!-- <li data-lang="zh-CN">"Maybe I should <a href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter" class="twitter-share-button" data-url="https://www.talater.com/open-source-templates/" data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll" data-via="TalAter"><img src="img/tweet.png" class="tweet" /></a> this," you say to no one in particular.</li> -->
+        <li data-lang="zh-CN">您没有准备好，您<a href="#/page/1">转身</a>然后重新开始。</li>
       </ul>
     </div>
 
