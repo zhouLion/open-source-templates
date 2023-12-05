@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Issue and Pull Request Templates Generator</title>
+    <meta
+      name="description"
+      content="A PULL_REQUEST_TEMPLATE.md and ISSUE_TEMPLATE.md generator featuring Cthulhu and Lewis Carrol"
+    />
+    <meta
+      property="og:image"
+      content="https://www.talater.com/open-source-templates/img/cheshire_cat.jpg"
+    />
+    <meta
+      property="og:title"
+      content="GitHub Issue and Pull Request Templates"
+    />
+    <meta
+      property="og:description"
+      content="Generate PULL_REQUEST_TEMPLATE.md and ISSUE_TEMPLATE.md with the help of Lewis Carrol and H.P. Lovecraft"
+    />
+    <meta
+      property="og:url"
+      content="https://www.talater.com/open-source-templates/"
+    />
+    <meta property="og:site_name" content="Open Source Templates Generator" />
+    <meta property="fb:admins" content="568390229" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ovo"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div style="position: sticky; top: 0">
+      <select id="langSelector">
+        <option value="en">English</option>
+        <option value="zh-CN">中文</option>
+      </select>
+
+      <span data-lang="en">
+          <a href="/#">Home</a>
+          <a href="/index">Switch to story mode</a>
+      </span>
+
+      <span data-lang="zh-CN">
+          <a href="/#">首页</a>
+          <a href="/index">故事模式</a>
+      </span>
+    </div>
+
+    <a href="#/page/1" class="cover-link">
+      <div class="cover">
+        <img src="img/cyoa.png" alt="Choose Your Own Adventure" class="cyoa" />
+        <h1 data-lang="en">Open Source Templates</h1>
+
+        <h1 data-lang="zh-CN">开源模版</h1>
+
+        <div class="author">by Tal Ater</div>
+        <img
+          src="img/cover.jpg"
+          alt="The Curious Case of the Issue and Pull Request Template"
+          class="cover-image"
+        />
+      </div>
+    </a>
+
+    <div class="page" id="page-1">
+      <h1 data-lang="en">Choose Template Type</h1>
+
+      <h1 data-lang="zh-CN">选择模版类型</h1>
+      <img src="img/alice25a.gif" />
+      <ul>
+        <li data-lang="en">
+          Create <a href="#/page/37/type/issues"><em>issue</em></a
+          >.
+        </li>
+        <li data-lang="en">
+          Create <a href="#/page/75/type/pull-requests"><em>pull request</em></a
+          >.
+        </li>
+        <li data-lang="en">Back to<a href="#" id="boss-key">Home</a>.</li>
+
+        <li data-lang="zh-CN">
+          创建<a href="#/page/37/type/issues"><em>issue</em></a
+          >.
+        </li>
+        <li data-lang="zh-CN">
+          创建<a href="#/page/75/type/pull-requests"><em>pull request</em></a
+          >.
+        </li>
+        <li data-lang="zh-CN">返回<a href="#" id="boss-key">首页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-37">
+      <div class="page-number">Page 37</div>
+      <h2 data-lang="en">Issue Guidance</h2>
+
+      <h2 data-lang="zh-CN">Issue 指引</h2>
+      <img src="img/451px-Maelstrom-Clarke.jpg" />
+      <ul>
+        <li data-lang="en">
+          You will follow the instructions to create an
+          <em>issue</em> template， <a href="#/page/38">and go to page 38</a>.
+        </li>
+        <li data-lang="en">Back to<a href="#" id="boss-key">Home</a>.</li>
+
+        <li data-lang="zh-CN">
+          你将会根据指引创建一个 <em>issue</em> 模版，
+          <a href="#/page/38">转到第38页</a>。
+        </li>
+        <li data-lang="zh-CN">返回 <a href="#" id="boss-key">首页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-38">
+      <div class="page-number">Page 38</div>
+      <h2 data-lang="en">Description</h2>
+
+      <h2 data-lang="zh-CN">描述</h2>
+      <img src="img/angelsversusdemons.jpg" />
+      <ul>
+        <li data-lang="en">
+          It's about <a href="#/page/39/description/bug">error reports</a>.
+        </li>
+        <li data-lang="en">
+          It's about
+          <a href="#/page/39/description/feature"
+            >new features, improves and changes</a
+          >。
+        </li>
+        <li data-lang="en">
+          It's about
+          <a href="#/page/39/description/bug-or-feature"
+            >error reports, new features, improves, and changes</a
+          >。
+        </li>
+
+        <li data-lang="zh-CN">
+          问题属于<a href="#/page/39/description/bug">错误报告</a>.
+        </li>
+        <li data-lang="zh-CN">
+          问题属于
+          <a href="#/page/39/description/feature">新特性、改进和变更的提议</a>。
+        </li>
+        <li data-lang="zh-CN">
+          问题属于
+          <a href="#/page/39/description/bug-or-feature"
+            >错误报告还有新特性、改进和变更的提议</a
+          >。
+        </li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-39">
+      <div class="page-number">Page 39</div>
+      <h2 data-lang="en">Choose Your Environment</h2>
+
+      <h2 data-lang="zh-CN">选择你的环境</h2>
+      <img src="img/2book18.jpg" />
+      <ul>
+        <li data-lang="en">
+          <a href="#/page/42/environment/browser">Browser</a>
+        </li>
+        <li data-lang="en">
+          <a href="#/page/42/environment/server">Server</a>
+        </li>
+        <li data-lang="en">
+          <a href="#/page/42/environment/browser-and-server"
+            >Server, as well as the browser</a
+          >.
+        </li>
+
+        <li data-lang="zh-CN">
+          <a href="#/page/42/environment/browser">浏览器端</a>
+        </li>
+        <li data-lang="zh-CN">
+          <a href="#/page/42/environment/server">服务端</a>
+        </li>
+        <li data-lang="zh-CN">
+          <a href="#/page/42/environment/browser-and-server"
+            >服务端 和 浏览器端</a
+          >.
+        </li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-42">
+      <div class="page-number">Page 42</div>
+      <h2 data-lang="en">Confirm To Download Issue Template</h2>
+
+      <h2 data-lang="en">确认加载 Issue 模版</h2>
+      <img src="img/cheshire_cat.jpg" />
+      <ul>
+        <li data-lang="en">
+          Ready to download your <a href="#/page/98">ISSUE_TEMPLATE.md</a>
+        </li>
+        <li data-lang="en">Back to <a href="#/page/1">Home</a>.</li>
+
+        <li data-lang="zh-CN">
+          可以准备下载<a href="#/page/98"> ISSUE_TEMPLATE.md </a>
+        </li>
+        <li data-lang="zh-CN">返回<a href="#" id="boss-key">首页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-98">
+      <div class="page-number">Page 98</div>
+      <h1 data-lang="en">Issue Template</h1>
+
+      <h1 data-lang="zh-CN">Issue 模版</h1>
+      <div class="file-box">
+        <a href="#" class="file-name">ISSUE_TEMPLATE.md</a>
+        <span class="file-description"
+          >Place this file in your repository's root directory or a .github
+          directory</span
+        >
+      </div>
+      <div class="textarea"><textarea></textarea></div>
+      <p data-lang="en">
+        You copy the contents of the <em>ISSUE_TEMPLATE.md</em> file, and place
+        it in your repository.
+      </p>
+
+      <p data-lang="zh-CN">
+        你复制<em> ISSUE_TEMPLATE.md </em>文件的内容，然后将其放在存储库中。
+      </p>
+
+      <ul>
+        <li data-lang="en">
+          You decide to
+          <a
+            class="github-button"
+            href="https://github.com/zhouLion/open-source-templates"
+            data-count-href="/zhouLion/open-source-templates/stargazers"
+            data-count-api="/repos/zhouLion/open-source-templates#stargazers_count"
+            data-count-aria-label="# stargazers on GitHub"
+            aria-label="Star zhouLion/open-source-templates on GitHub"
+            >Star</a
+          >
+          this on GitHub.
+        </li>
+        <li data-lang="en">
+          "Maybe I should
+          <a
+            href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter"
+            class="twitter-share-button"
+            data-url="https://www.talater.com/open-source-templates/"
+            data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll"
+            data-via="TalAter"
+            ><img src="img/tweet.png" class="tweet"
+          /></a>
+          this," you say to no one in particular.
+        </li>
+        <li data-lang="en">Back to <a href="#/page/1">Home</a>.</li>
+
+        <li data-lang="zh-CN">
+          你决定在 GitHub 上<a
+            class="github-button"
+            href="https://github.com/zhouLion/open-source-templates"
+            data-count-href="/zhouLion/open-source-templates/stargazers"
+            data-count-api="/repos/zhouLion/open-source-templates#stargazers_count"
+            data-count-aria-label="# stargazers on GitHub"
+            aria-label="Star zhouLion/open-source-templates on GitHub"
+            >标星</a
+          >这个仓库。
+        </li>
+        <li data-lang="zh-CN">返回<a href="#" id="boss-key">首页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-75">
+      <div class="page-number">Page 75</div>
+      <h2 data-lang="en">PR Guidance</h2>
+
+      <h2 data-lang="en">PR 指引</h2>
+      <img src="img/2book3.jpg" />
+      <ul>
+        <li data-lang="en">
+          You will follow the instructions to create an <em>PR</em> template，
+          <a href="#/page/77">and go to page 77</a>.
+        </li>
+        <li data-lang="en">Back to<a href="#" id="boss-key">Home</a>.</li>
+
+        <li data-lang="zh-CN">
+          你将会根据指引创建一个 <em>PR</em>模版，
+          <a href="#/page/77">转到第 77 页</a>。
+        </li>
+        <li data-lang="zh-CN">返回<a href="#" id="boss-key">首页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-77">
+      <div class="page-number">Page 77</div>
+      <h2 data-lang="en">Description</h2>
+
+      <h2 data-lang="zh-CN">描述</h2>
+      <img src="img/2book33.jpg" />
+      <ul>
+        <li data-lang="en">
+          <a href="#/page/26/description/generic"
+            >Accept pull requests even without issues</a
+          >.
+        </li>
+        <li data-lang="en">
+          <a href="#/page/26/description/issue-required"
+            >Only accept pull requests after the matter has been discussed in an
+            issue</a
+          >".
+        </li>
+
+        <li data-lang="zh-CN">
+          <a href="#/page/26/description/generic"
+            >无需讨论问题，直接接受拉取请求</a
+          >。
+        </li>
+        <li data-lang="zh-CN">
+          <a href="#/page/26/description/issue-required"
+            >在问题中讨论此事后，才能接受拉取请求</a
+          >。
+        </li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-26">
+      <div class="page-number">Page 26</div>
+
+      <h2 data-lang="en">Tests</h2>
+
+      <h2 data-lang="zh-CN">测试用例</h2>
+      <img src="img/2book36.jpg" />
+      <ul>
+        <li data-lang="en">
+          <a href="#/page/29/checklist/tests"
+            >My project has automated tests set up</a
+          >.
+        </li>
+        <li data-lang="en">
+          <a href="#/page/29">Turn to page 29</a> directly.
+        </li>
+
+        <li data-lang="zh-CN">
+          <a href="#/page/29/checklist/tests">我的项目设置了自动测试</a>。
+        </li>
+        <li data-lang="zh-CN">直接<a href="#/page/29">转向第 29 页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-29">
+      <div class="page-number">Page 29</div>
+      <h2 data-lang="en">CONTRIBUTING file</h2>
+
+      <h2 data-lang="zh-CN">贡献文件</h2>
+      <img src="img/2book32.jpg" />
+      <ul>
+        <li data-lang="en">
+          <a href="#/page/56/checklist/contributing"
+            >My project has a CONTRIBUTING file</a
+          >.
+        </li>
+        <li data-lang="en">
+          <a href="#/page/56">Turn to page 56</a> directyly.
+        </li>
+
+        <li data-lang="zh-CN">
+          <a href="#/page/56/checklist/contributing"
+            >我的项目有一个那样的贡献文件</a
+          >。
+        </li>
+        <li data-lang="zh-CN">直接<a href="#/page/56">转向第 56 页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-56">
+      <div class="page-number">Page 56</div>
+
+      <h2 data-lang="en">Confirm To Download PULL_REQUEST_TEMPLATE</h2>
+
+      <h2 data-lang="zh-CN">确认加载 PULL_REQUEST_TEMPLATE</h2>
+      <img src="img/cheshire_cat.jpg" />
+      <ul>
+        <li data-lang="en">
+          Ready to download your
+          <a href="#/page/99"> PULL_REQUEST_TEMPLATE.md</a>
+        </li>
+        <li data-lang="en">Back to <a href="#/page/1">Home</a>.</li>
+
+        <li data-lang="zh-CN">
+          可以准备下载<a href="#/page/99"> PULL_REQUEST_TEMPLATE.md </a>
+        </li>
+        <li data-lang="zh-CN">返回<a href="#" id="boss-key">首页</a>。</li>
+      </ul>
+    </div>
+
+    <div class="page" id="page-99">
+      <div class="page-number">Page 99</div>
+      <div class="file-box">
+        <a href="#" class="file-name">PULL_REQUEST_TEMPLATE.md</a>
+        <span class="file-description"
+          >Place this file in your repository's root directory or a .github
+          directory</span
+        >
+      </div>
+      <div class="textarea"><textarea></textarea></div>
+      <p data-lang="en">
+        You copy the contents of the <em>PULL_REQUEST_TEMPLATE.md</em> file,
+        placing it in your repository.
+      </p>
+
+      <p data-lang="zh-CN">
+        你复制<em> PULL_REQUEST_TEMPLATE.md </em>文件的内容，将其放在存储库中。
+      </p>
+      <ul>
+        <li data-lang="en">
+          You decide to
+          <a
+            class="github-button"
+            href="https://github.com/zhouLion/open-source-templates"
+            data-count-href="/zhouLion/open-source-templates/stargazers"
+            data-count-api="/repos/zhouLion/open-source-templates#stargazers_count"
+            data-count-aria-label="# stargazers on GitHub"
+            aria-label="Star zhouLion/open-source-templates on GitHub"
+            >Star</a
+          >
+          this on GitHub.
+        </li>
+        <li data-lang="en">
+          "Maybe I should
+          <a
+            href="https://twitter.com/intent/tweet?text=A%20GitHub%20issue%20and%20pull%20request%20template%20generator%20featuring%20Cthulhu%20and%20Lewis%20Carroll%20https%3A%2F%2Fwww.talater.com%2Fopen-source-templates%2F%20via%20%40TalAter"
+            class="twitter-share-button"
+            data-url="https://www.talater.com/open-source-templates/"
+            data-text="A GitHub issue and pull request template generator featuring Cthulhu and Lewis Carroll"
+            data-via="TalAter"
+            ><img src="img/tweet.png" class="tweet"
+          /></a>
+          this," you say to no one in particular.
+        </li>
+        <li data-lang="en">Back to <a href="#/page/1">Home</a>.</li>
+
+        <li data-lang="zh-CN">
+          你决定在 GitHub 上<a
+            class="github-button"
+            href="https://github.com/zhouLion/open-source-templates"
+            data-count-href="/zhouLion/open-source-templates/stargazers"
+            data-count-api="/repos/zhouLion/open-source-templates#stargazers_count"
+            data-count-aria-label="# stargazers on GitHub"
+            aria-label="Star zhouLion/open-source-templates on GitHub"
+            >标星</a
+          >这个仓库。
+        </li>
+        <li data-lang="zh-CN">返回<a href="#" id="boss-key">首页</a>。</li>
+      </ul>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://rawgit.com/flatiron/director/master/build/director.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/download.min.js"></script>
+    <script
+      async
+      defer
+      id="github-bjs"
+      src="https://buttons.github.io/buttons.js"
+    ></script>
+  </body>
+</html>
